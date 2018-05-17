@@ -1,6 +1,6 @@
 package cn.zyp.concurrent;
 
-public class Test {
+public class SemaphoreTest {
     public static void main(String[] args) {
         Semaphore semaphore=new Semaphore(3);
 

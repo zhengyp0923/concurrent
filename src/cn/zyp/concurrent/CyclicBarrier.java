@@ -36,4 +36,11 @@ public class CyclicBarrier {
         }
         return count;
     }
+
+    public void reset(int count){
+        if(count<0){
+            throw new RuntimeException("count must >0");
+        }
+        this.count=count;
+    }
 }
